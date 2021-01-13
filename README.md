@@ -1,14 +1,16 @@
 # Sudoku_Solver
 About the project : 
 
-Sudoku is a logic-based number placement puzzle game. The objective is to fill a nine-by-nine (9x9) grid with digits (1-9) such that each row, column and 3x3 section contain number 1 to 9 without repetition.
+ - Sudoku is a logic-based number placement puzzle game. The objective is to fill a nine-by-nine (9x9) grid with digits (1-9) such that each row, column and 3x3 section          contain number 1 to 9 without repetition.
 
-This project is a Sudoku Solver that solves almost any sudoku puzzle. The user input a partially filled 9x9 sudoku, empty space in the grid is represented by 0 and the program gives the solved sudoku as output.
-This project uses backtracking and recursion. 
+ - This project is a Sudoku Solver that solves almost any sudoku puzzle. The user input a partially filled 9x9 sudoku, empty space in the grid is represented by 0 and the        program gives the solved sudoku as output.
+
+ -This project uses backtracking and recursion. 
 
 
 Programming Language used : 
- C++
+  
+  - C++
 
 
 Functions in the program :
@@ -16,7 +18,9 @@ Functions in the program :
 Input( ) : It asks the user to input the partially filled 9x9 grid. And store it in a 2-D array of row = 9 and column = 9.
  
  
-Check_input( ) :  We pass grid in this function to check whether the input is a valid sudoku or not. 
+Check_input( ) : 
+
+ - We pass grid in this function to check whether the input is a valid sudoku or not. 
  
  Invalid conditions :
  
@@ -26,14 +30,14 @@ Check_input( ) :  We pass grid in this function to check whether the input is a 
 
     3.If the numbers in the input sudoku are repeated in the same row , column or submatrix (3x3).
 
-If any of the above invalid conditions occur in input sudoku so the program will print an error message and will end ,else the further program for solving sudoku will be executed.
+   - If any of the above invalid conditions occur in input sudoku so the program will print an error message and will end ,else the further program for solving sudoku will be      executed.
 
 
 Check_num( )
 
- This function checks whether the number to be filled in the empty cell is safe or not, if yes then it will return true and will assign the number to the empty cell , else it will return false and will not assign that number.
+  -  This function checks whether the number to be filled in the empty cell is safe or not, if yes then it will return true and will assign the number to the empty cell ,          else it will return false and will not assign that number.
  
- The function will check the following condition to place that number to empty cell :
+  - The function will check the following condition to place that number to empty cell :
  
          1. If that number is not present in the same row and in the same column.
 
@@ -66,4 +70,4 @@ Print( ) : This print function will print the solved sudoku grid in the form of 
 
 How to run this project ?
 
-Run this code in any IDE (integrated development environment) such as code::blocks , VS code , etc. with (.cpp) extension. As you run this code the output screen will ask you to enter the 9x9 grid (a partially filled valid sudoku grid in which space to be filled is represented by 0). As you enter the grid and press enter the output will be a solved sudoku. You can use this project to find a solution to any sudoku within a very less time and with zero effort.
+ - Run this code in any IDE (integrated development environment) such as code::blocks , VS code , etc. with (.cpp) extension. As you run this code the output screen will ask you to enter the 9x9 grid (a partially filled valid sudoku grid in which space to be filled is represented by 0). As you enter the grid and press enter the output will be a solved sudoku. You can use this project to find a solution to any sudoku within a very less time and with zero effort.
