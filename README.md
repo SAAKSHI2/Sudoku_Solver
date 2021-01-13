@@ -5,7 +5,7 @@ About the project :
 
  - This project is a Sudoku Solver that solves almost any sudoku puzzle. The user input a partially filled 9x9 sudoku, empty space in the grid is represented by 0 and the        program gives the solved sudoku as output.
 
- -This project uses backtracking and recursion. 
+ - This project uses backtracking and recursion. 
 
 
 Programming Language used : 
@@ -64,7 +64,8 @@ Solve_sudoku( )
    - This whole process occurs recursively until the whole grid is filled and is solved. If even after the above processes some spaces are not filled ,no safe number is found     then the function returns false to the main function and will print the message of no solution found.
  
  
-Print( ) : This print function will print the solved sudoku grid in the form of a 9x9 2D block.
+
+Print( ) :  This print function will print the solved sudoku grid in the form of a 9x9 2D block.
  
 
 
